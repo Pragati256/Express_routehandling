@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 app.get("/user1", (req, res) => {
   res.send("Hello pragati");
 });
-
+//let's send some JSON
 app.get("/user2", (req, res) => {
   res.json({ username: "Hello shivani", age: "22", city: "Heart" });
 });
