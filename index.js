@@ -11,10 +11,16 @@ app.get("/user1", (req, res) => {
 app.get("/user2", (req, res) => {
   res.json({ username: "Hello shivani", age: "22", city: "Heart" });
 });
-
-app.get("/user3", (req, res) => {
+//in the browser it will not show the response as you have to try it out in the postman
+app.post("/user3", (req, res) => {
   res.send("Hello ritu");
 });
+
+app.delete("/user4", (req, res) => {
+  res.send("This is a delete request");
+});
+
+app.po;
 
 app.listen(3000, () => console.log("The application is running on port 3000"));
 module.exports = express;
