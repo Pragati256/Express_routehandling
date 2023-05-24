@@ -20,7 +20,5 @@ app.delete("/user4", (req, res) => {
   res.send("This is a delete request");
 });
 
-app.po;
-
 app.listen(3000, () => console.log("The application is running on port 3000"));
 module.exports = express;
